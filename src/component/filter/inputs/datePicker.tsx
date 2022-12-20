@@ -1,5 +1,5 @@
 import { TextField } from "@mui/material";
-import { DesktopDatePicker, LocalizationProvider, ptBR } from "@mui/x-date-pickers";
+import { DesktopDatePicker, LocalizationProvider } from "@mui/x-date-pickers";
 import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
 import { IFilterInput } from "../types";
 import ptLocale from 'date-fns/locale/pt-BR';
