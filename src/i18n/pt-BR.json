@@ -1,0 +1,221 @@
+{
+    "vmpay": {
+        "subtitle": "Record Expansive"
+    },
+    "loginPage": {
+        "accessTitle": "Acessar",
+        "username": "Usuário",
+        "password": "Senha"
+    },
+    "common": {
+        "enter": "Entrar",
+        "confirm": "Confirmar",
+        "cancel": "Cancelar",
+        "back": "Anterior",
+        "nextAndSave": "Salvar e Prosseguir",
+        "search": "Pesquisar",
+        "clean": "Limpar",
+        "dateStart": "Data Inicial",
+        "dateEnd": "Data Final",
+        "next": "Prosseguir",
+        "finishAndSave": "Salvar e Concluir",
+        "finish": "Concluir",
+        "ok": "Ok",
+        "money": "R$",
+        "active": "ATIVO",
+        "inactive": "DESATIVADO",
+        "actions": "Ações"
+    },
+    "error": {
+        "400": "Erro no corpo da Requisição [400]",
+        "401": "Privilégio insuficiente para acessar recurso  [401]",
+        "401-login": "Login ou Senha incorreto  [404]",
+        "404": "Recurso não encontrado  [404]",
+        "500": "Ops, ocorreu um problema no servidor tente novamente mais tarde  [500]",
+        "-1": "Ops, ocorreu um problema tente novamente mais tarde"
+    },
+    "homePage": {
+        "menuTooltip": "exibir/esconder menu",
+        "userTooltip": "Detalhes do Usuário"
+    },
+    "menu": {
+        "dashboard": {
+            "label": "Dashboard",
+            "description": "Página Inicial",
+            "general": "Geral",
+            "money": "Monetário",
+            "volume": "Volumetria",
+            "pending": "Pagamentos Pendentes"
+        },
+        "report": {
+            "label": "Lançamentos",
+            "description": "Resumo dos Lançamentos",
+            "general": "Lançamentos",
+            "money": "Monetário",
+            "volume": "Volumetria",
+            "pending": "Pagamentos Pendentes"
+        },
+        "transaction": {
+            "label": "Pagamentos",
+            "description": "Transações efetivadas",
+            "list": "Transações",
+            "general": "Geral",
+            "money": "Monetário",
+            "volume": "Volumetria",
+            "pending": "Pagamentos Pendentes"
+        },
+        "configuration": {
+            "label": "Configuração",
+            "description": "Parâmetros",
+            "wallet": "Usuários",
+            "settings": "Geral"
+        }
+    },
+    "order": {
+        "wallet": "Usuários",
+        "store": "Loja",
+        "pos": "PDV",
+        "coupon": "Cupom",
+        "date": "Data Criação",
+        "status": "Status",
+        "identifier": "Identificador",
+        "total": "Total",
+        "details": "Detalhes"
+    },
+    "wallet": {
+        "id": "Carteira",
+        "name": "Usuários",
+        "description": "Nome",
+        "tenant": "Chave",
+        "status": "Status",
+        "edit": "Editar",
+        "config": "Configurar",
+        "title": "Carteira Digital",
+        "steps": {
+            "modalCancel": {
+                "title": "Deseja retroceder?",
+                "description": "As modificações realizadas serão perdidas"
+            },
+            "tenant": {
+                "title": "Configuração da Carteira",
+                "description": "Configurações básicas da carteira",
+                "time": "Tempo total da operação (s)",
+                "timeDescription": "tempo total",
+                "interval": "Intervalo entre consultas (s)",
+                "intervalDescription": "tempo de interválo",
+                "finalizadora": "código da fin. no paramCentral",
+                "finalizadoraDescription": "Código da finalizadora"
+            },
+            "question": {
+                "title": "Coleta de Dados",
+                "description": "Perguntas necessárias para a venda",
+                "listActive": "Perguntas Ativas no PDV",
+                "listInactive": "Perguntas Disponíveis",
+                "titleField": "Texto da Coleta",
+                "titleSelect": "Entrada da Respota",
+                "descriptionField": "Label 1 para o PDV"
+            },
+            "store": {
+                "title": "Lojas Habilitadas",
+                "description": "Cadastrar lojas participantes",
+                "listStore": "Lojas vinculadas",
+                "titleStoreId": "Número da Loja",
+                "titleKey": "Chave do parceiro (caso necessário)",
+                "add": "Adicionar Loja",
+                "duplicated": "Número da Loja duplicado"
+            },
+            "param": {
+                "title": "Parametros",
+                "description": "Parametros da integração da Carteira",
+                "paramName": "Nome do Parametro",
+                "yes": "Sim",
+                "no": "Não"
+            },
+            "input": {
+                "scan_key": "SCANNER/TECLADO",
+                "key": "TECLADO",
+                "scan": "SCANNER",
+                "pin": "PINPAD TEXTO",
+                "pin_pass": "PINPAD SENHA CRIPT",
+                "pin_mag": "PINPAD CARTÃO MAG"
+            }
+        }
+    },
+    "profile": {
+        "type": "Tipo de Usuário:",
+        "exit": "Sair",
+        "modeDark": "Tema Escuro",
+        "modeLight": "Tema Claro"
+    },
+    "language": "Idioma",
+    "filter": {
+        "title": "Filtros",
+        "titleAdvanced": "Filtro Avançado",
+        "selectDefault": "Todos"
+    },
+    "purchase": {
+        "title": "Dados da Compra",
+        "description": "Dados do Pagamento",
+        "typePayment": "Forma de pagamento",
+        "AmountPayment": "Valor total da compra",
+        "totalItens": "Total de itens",
+        "paymentTypeNotFound": "Não encontrada",
+        "searchBox": "Pesquisar Item",
+        "itemDescr": "Descrição do Produto",
+        "purchaseItens": "Itens da compra",
+        "emptyItems": "Caterira não registrou nenhum produto, alguns carteiras não possuem captura de items da compra",
+        "notFound": "Nenhum item correspondente com os parametros da pesquisa",
+        "unitMoney": "Preço Unitário",
+        "qtde": "Qtde",
+        "total": "Total"
+    },
+    "cbc": {
+        "title": "CBC - Parcelamento",
+        "parcelNumber": "Parcela",
+        "barcode": "Código",
+        "endDate": "Vencimento",
+        "multa": "Multa",
+        "value": "Valor",
+        "total": "Total",
+        "moro": "Mora",
+        "tax": "Taxa",
+        "purchaseId": "ID da Venda",
+        "nsu": "NSU",
+        "contractNumber": "Contrato",
+        "transactionNumber": "Código da Transação",
+        "name": "Nome",
+        "document": "Documento",
+        "totalParcel": "Qtde Parcelas",
+        "status": {
+            "CANCELED": "Cancelado",
+            "ACTIVE": "Pendente"
+        }
+    },
+    "history": {
+        "title": "Histórico",
+        "PDV": "PDV",
+        "application": "vm-Pay",
+        "walletApi": "API Terceira",
+        "steps": "STEP",
+        "conciliador": "SONDA DE PAGAMENTO",
+        "cancel": "CANCEL",
+        "status": "STATUS",
+        "reserve": "RESERVE",
+        "commit": "COMMIT",
+        "to_commit": "TO COMMIT",
+        "callback": "PAYMENT CALLBACK"
+    },
+    "status": {
+        "DENIED": "NEGADO",
+        "CONTINGENCY_ORDER": "CONTIGÊNCIA",
+        "AWAITING": "AGUARDANDO",
+        "PAID": "PAGO",
+        "COMMIT_TODO": "À EFETIVAR",
+        "COMMIT": "EFETIVADO",
+        "COMMIT_FAILED": "FALHA AO EFETIVAR",
+        "COMMIT_ERROR": "ERRO NA EFETIVAÇÃO",
+        "CANCELLED": "CANCELADO",
+        "CHARGEBACK": "ESTORNADO",
+        "AWAITING_CHARGEBACK": "AGUARDANDO ESTORNO"
+    }
+}
