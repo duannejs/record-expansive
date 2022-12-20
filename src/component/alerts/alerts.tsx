@@ -37,7 +37,7 @@ export default function AlertDialogSlide({data, dataFim, tipo, destinatario , us
   };
 
   const updateCabecalho = async () => {
-    await dispatch(CategoryUpdate(data, dataFim, tipo, destinatario , userId, protocoloId, obs , cobranca));  
+    await dispatch(CategoryUpdate(data, dataFim, tipo, destinatario , userId, protocoloId, obs , cobranca,'',''));  
 };
 
   const redirect = () =>{
