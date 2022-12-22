@@ -5,11 +5,9 @@ import { Icategoria } from "../../../pages/vm-pay/private/dashboard";
 import { ICars } from "../../../redux/ducks/vehicles/types";
 
 
-
-
 const styles = StyleSheet.create({
   table: {
-    display: "table",
+    display: "none",
   },
   tr: {
     margin: "auto",
