@@ -14,7 +14,8 @@ const INITIAL_STATE: ITokenTypes = {
     name: '',
     loading: false,
     error: false,
-    master: false
+    master: false,
+    userInfo: undefined
 };
 
 const reducer = (state = INITIAL_STATE, action: any): any => {
