@@ -28,7 +28,7 @@ export function* PermissionUserReq({ payload }: any): any {
             switch (e.response?.status) {
                 case 401:
                 case 404:
-                    yield put(ErrorToast(1, e.response?.status || -1, e.response?.data, 'error.401-login'));
+                    yield put(ErrorToast(1, e.response?.status || -1, e.response?.data));
                     break;
                 default:
                     yield put(ErrorToast(1, e.response?.status || -1, e.response?.data));
