@@ -77,7 +77,7 @@ const Transaction = () => {
             {
                 field: 'storeId', label: t('order.store'), id: 5, order: 5, type: IFieldType.AUTOCOMPLETE, size: IFieldSize.MEDIUM, fixedChip: false,
                 options: {
-                    data: profile.userInfo.stores.sort((i, k) => sortNumber(i, k, 'storeId')).map((item): ISelectOptions => {
+                    data: profile.userInfo.stores.sort((i:any, k: any) => sortNumber(i, k, 'storeId')).map((item:any): ISelectOptions => {
                         return { id: item.storeId, value: item.storeId.toString(), key: 'id' }
                     }),
                     format: (obj: any) => { return obj.value }

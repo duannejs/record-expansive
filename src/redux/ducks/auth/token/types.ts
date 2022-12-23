@@ -40,6 +40,7 @@ export interface IApiUrls {
 
 
 export interface ITokenTypes {
+    userInfo: any;
     isValidUser: any;
     user: IUser ;
     name: string | null;
