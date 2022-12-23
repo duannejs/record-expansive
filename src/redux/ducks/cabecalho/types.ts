@@ -11,6 +11,7 @@ export const Types = {
 
 
 interface Icabecalhos {
+  row: string;
   id: number;
   data_inicial: string;
   data_final: string;

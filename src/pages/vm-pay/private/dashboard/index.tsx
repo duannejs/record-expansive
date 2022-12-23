@@ -33,6 +33,7 @@ interface tableRow {
     veiculo: string;
     vl_km: string;
     totalveiculo: number;
+  
 }
 
 interface IItensKms {
@@ -118,7 +119,7 @@ const Dashboard = () => {
     }
 
     const isItem = (id: any) => {
-        let row = cabecalhos.filter(item => { if (item.id == id) { return item } });
+        let row: any = cabecalhos.filter(item => { if (item.id == id) { return item } });
         if (row.length > 0) {
             setItemSelect(row[0])
         }
